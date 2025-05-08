@@ -1,0 +1,29 @@
+body {
+        font-family: 'Segoe UI', sans-serif;
+        padding: 2rem;
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        transition: background 0.3s, color 0.3s;
+      }
+      
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      section {
+        margin: 4rem 0;
+        min-height: 30vh;
+      }
+      
+      #glow-cursor-container {
+        height: 200px;
+        border: 2px dashed var(--text);
+        position: relative;
+        overflow: hidden;
+      }
+      
+      /* Reuse cursor and scrollCharm CSS if you already have them */
+      
