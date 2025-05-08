@@ -18,7 +18,7 @@ Welcome to **Spellbound.js**, a library of enchanting web animations and effects
 
 ## 📦 Installation
 
-Install the library using your favorite package manager:
+Install the library using your favorite package manager!
 
 ```bash
 npm install spellbound.js
