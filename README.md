@@ -97,7 +97,7 @@ This project is licensed under the [MIT License](LICENSE). Use it freely, but re
 - Inspired by the wizarding world of Harry Potter. ⚡
 - Special thanks to all the developers who believe in magic. 🪄
 - Created with ❤️ by Bharat Garsondiya.
-📧 Email: contact@bharatgarsondiya.me
+- 📧 Email: contact@bharatgarsondiya.me
 
 ---
 
