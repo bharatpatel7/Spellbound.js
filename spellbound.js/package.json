@@ -1,19 +1,22 @@
 {
   "name": "spellbound.js",
   "version": "1.0.0",
-  "description": "A magical TypeScript library of UI effects to enchant your website",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "A library to create magical, stylish web effects",
+  "main": "dist/spellbound.umd.js",
+  "module": "dist/spellbound.es.js",
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ui", "effects", "typescript", "frontend", "magic", "animation", "harrypotter"],
-  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bharatpatel7/Spellbound.js.git"
+  },
+  "author": "Bharat Garsondiya",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
-    "vite": "^5.0.0",
-    "typescript": "^5.3.0"
+    "vite": "^5.4.19"
   }
 }

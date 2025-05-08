@@ -1,35 +1,60 @@
-/* Base state */
+/* 🪄✨ Base state for the fade-in charm ✨🪄 */
+/* Elements are hidden, waiting for the spell to reveal them */
 .sb-fade-in {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: all 0.6s ease-out;
-      }
-      
- /* Animated state */
-.sb-fade-in.sb-fade-in-active {
-        opacity: 1;
-        transform: translateY(0);
-      }
+  opacity: 0; /* Cloaked in invisibility */
+  transform: translateY(20px); /* Hovering slightly off the ground */
+  transition: all 0.6s ease-out; /* Smooth as a Hippogriff's flight */
+}
 
+/* ✨ Activated state for the fade-in charm */
+/* The spell is cast, and the element gracefully appears */
+.sb-fade-in.sb-fade-in-active {
+  opacity: 1; /* Fully visible, like a Patronus */
+  transform: translateY(0); /* Grounded and ready */
+}
+
+/* 🪄✨ Base state for the slide-up charm ✨🪄 */
+/* Elements start hidden and slightly below their final position */
 .sb-slide-up {
-        opacity: 0;
-        transform: translateY(30px);
-        transition: all 0.6s ease;
-      }
-      
+  opacity: 0; /* Hidden in the shadows */
+  transform: translateY(30px); /* Waiting to ascend */
+  transition: all 0.6s ease; /* Smooth as a broomstick ride */
+}
+
+/* ✨ Activated state for the slide-up charm */
+/* The spell lifts the element into view */
 .sb-slide-up.sb-slide-up-active {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      
+  opacity: 1; /* Fully visible, like a phoenix rising */
+  transform: translateY(0); /* Ascended to its rightful place */
+}
+
+/* 🪄✨ Base state for the zoom-in charm ✨🪄 */
+/* Elements start smaller and hidden */
 .sb-zoom-in {
-        transform: scale(0.9);
-        opacity: 0;
-        transition: all 0.6s ease;
-      }
-      
+  transform: scale(0.9); /* Shrunk, like a shrunken head */
+  opacity: 0; /* Cloaked in mystery */
+  transition: all 0.6s ease; /* Smooth as a potion brewing */
+}
+
+/* ✨ Activated state for the zoom-in charm */
+/* The spell enlarges and reveals the element */
 .sb-zoom-in.sb-zoom-in-active {
-        transform: scale(1);
-        opacity: 1;
-      }
-      
+  transform: scale(1); /* Restored to full size */
+  opacity: 1; /* Fully visible, like a spell well-cast */
+}
+
+/* 🪄✨ Cursor animation charm ✨🪄 */
+/* Adds a magical blinking cursor effect */
+.sb-cursor {
+  display: inline-block; /* A tiny magical wand */
+  margin-left: 3px; /* Slightly offset for style */
+  animation: blink 1s step-end infinite; /* Blinking like a Niffler's eye on gold */
+}
+
+/* ✨ Blink animation */
+/* Makes the cursor disappear and reappear, like a sneaky wizard */
+@keyframes blink {
+  50% {
+    opacity: 0; /* Vanished into thin air */
+  }
+}
